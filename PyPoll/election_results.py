@@ -67,3 +67,16 @@ print(f"{votes_per_candidate[0][2][0]}: {third_place_percentage}% ({votes_per_ca
 print("---------")
 print(f"Winner: {votes_per_candidate[0][0][0]}")
 print("---------")
+
+with open("election_data.txt", "w") as output_files: 
+
+    output_files.write("Election Results\n")
+    output_files.write("--------------------\n")
+    output_files.write(f"Total Votes: :{total_voter_count}\n")
+    output_files.write("---------------------\n")
+    output_files.write(f"{votes_per_candidate[0][0][0]}: {first_place_percetage}% ({votes_per_candidate[0][0][1]}\n)")
+    output_files.write(f"{votes_per_candidate[0][1][0]}: {second_place_percentage}% ({votes_per_candidate[0][1][1]}\n)")
+    output_files.write(f"{votes_per_candidate[0][2][0]}: {third_place_percentage}% ({votes_per_candidate[0][2][1]}\n)")
+    output_files.write("--------------------\n")
+    output_files.write(f"Winner: {votes_per_candidate[0][0][0]}\n")
+    output_files.write("-------------------\n")
