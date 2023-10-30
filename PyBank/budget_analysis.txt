@@ -1,0 +1,7 @@
+Finacial Analysis
+--------------------
+Total Months: 86
+Total: $382539
+Average Change: $9952586.952941176
+Greatest Increase in Profits: Oct-16 $21899351
+Greatest Increase in Losses: Mar-11 $-879590
